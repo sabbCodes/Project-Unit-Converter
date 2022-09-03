@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <header>
+        <img src="moon.png" id="moonImg">
+        <div class="container">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="input" placeholder="0">
+            <button type="button" id="convert-btn">Convert</button>
+        </div>
+    </header>
+    <section>
+        <div class="body-container">
+            <div class="length">
+                <h3>Length (Meter/Feet)</h3>
+                <p id="length-el">0 meters = 0 feet | 0 feet = 0 meters</p>
+            </div>
+            <div class="volume">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id="volume-el">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+            </div>
+            <div class="mass">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass-el">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
